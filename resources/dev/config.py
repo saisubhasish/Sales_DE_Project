@@ -5,9 +5,9 @@ iv = "youtube_encyptyo"
 salt = "youtube_AesEncryption"
 
 #AWS Access And Secret key
-aws_access_key = "your_encrypted_access_key"
-aws_secret_key = "your_encrypted_secret_key"
-bucket_name = "youtube-project-testing"
+aws_access_key = "PrbxNbhZyJ+jtjTlqgt+9uolS9qyd3T78zMT7B1XJaU="
+aws_secret_key = "DKKoGzZHX/S8s9AStvcnPSXbcvR2td3kDSzORc7j715qJqkbpOUeMn/JH8A/E97H"
+bucket_name = "de-sai-project-1"
 s3_customer_datamart_directory = "customer_data_mart"
 s3_sales_datamart_directory = "sales_data_mart"
 s3_source_directory = "sales_data/"
@@ -41,8 +41,8 @@ mandatory_columns = ["customer_id","store_id","product_name","sales_date","sales
 
 
 # File Download location
-local_directory = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\file_from_s3\\"
-customer_data_mart_local_file = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\customer_data_mart\\"
-sales_team_data_mart_local_file = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\sales_team_data_mart\\"
-sales_team_data_mart_partitioned_local_file = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\sales_partition_data\\"
-error_folder_path_local = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data\\error_files\\"
+local_directory = "D:\\FSDS-iNeuron\\10.Projects-DS\\DataEngineerProject\\spark_data\\file_from_s3\\"
+customer_data_mart_local_file = "D:\\FSDS-iNeuron\\10.Projects-DS\\DataEngineerProject\\spark_data\\customer_data_mart\\"
+sales_team_data_mart_local_file = "D:\\FSDS-iNeuron\\10.Projects-DS\\DataEngineerProject\\spark_data\\sales_team_data_mart\\"
+sales_team_data_mart_partitioned_local_file = "D:\\FSDS-iNeuron\\10.Projects-DS\\DataEngineerProject\\spark_data\\sales_partition_data\\"
+error_folder_path_local = "D:\\FSDS-iNeuron\\10.Projects-DS\\DataEngineerProject\\spark_data\\error_files\\"
